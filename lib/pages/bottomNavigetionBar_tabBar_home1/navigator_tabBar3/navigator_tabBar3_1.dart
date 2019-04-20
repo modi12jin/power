@@ -146,7 +146,7 @@ void Buck_Boost_Inductor_Design_Steps() async{
             ),
 
               Text(
-              "电感量: $L_uH(微亨)",
+              "电感量: ${L_uH.toStringAsFixed(2)}(微亨)",
               style: TextStyle(
                   fontSize: 20.0,
                   fontWeight: FontWeight.bold,
@@ -154,7 +154,7 @@ void Buck_Boost_Inductor_Design_Steps() async{
             ),
 
              Text(
-              "电感电流: $L_A(安培)",
+              "电感电流: ${L_A.toStringAsFixed(2)}(安培)",
               style: TextStyle(
                   fontSize: 20.0,
                   fontWeight: FontWeight.bold,

@@ -143,7 +143,7 @@ var Dutycycle=0.0,Cycle=0.0,tON=0.0,vXt_ON=0.0,vXt=0.0;
             ),
 
               Text(
-              "电感量: $L_uH(微亨)",
+              "电感量: ${L_uH.toStringAsFixed(2)}(微亨)",
               style: TextStyle(
                   fontSize: 20.0,
                   fontWeight: FontWeight.bold,
@@ -151,7 +151,7 @@ var Dutycycle=0.0,Cycle=0.0,tON=0.0,vXt_ON=0.0,vXt=0.0;
             ),
 
              Text(
-              "电感电流: $L_A(安培)",
+              "电感电流: ${L_A.toStringAsFixed(2)}(安培)",
               style: TextStyle(
                   fontSize: 20.0,
                   fontWeight: FontWeight.bold,
